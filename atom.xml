@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://luoyin16.github.io</id>
     <title>Blog via luo</title>
-    <updated>2019-11-18T08:01:58.246Z</updated>
+    <updated>2019-11-18T08:05:07.582Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://luoyin16.github.io"/>
+    <link rel="self" href="https://luoyin16.github.io/atom.xml"/>
     <subtitle>茫茫四顾，花死，叶亡。</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://luoyin16.github.io/images/avatar.png</logo>
+    <icon>https://luoyin16.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Blog via luo</rights>
     <entry>
         <title type="html"><![CDATA[立秋失败]]></title>
-        <id>http://localhost:4000/post/立秋失败</id>
-        <link href="http://localhost:4000/post/立秋失败">
+        <id>https://luoyin16.github.io/post/立秋失败</id>
+        <link href="https://luoyin16.github.io/post/立秋失败">
         </link>
         <updated>2019-10-04T12:41:01.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -165,8 +165,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[都会顺利吗]]></title>
-        <id>http://localhost:4000/post/都会顺利吗</id>
-        <link href="http://localhost:4000/post/都会顺利吗">
+        <id>https://luoyin16.github.io/post/都会顺利吗</id>
+        <link href="https://luoyin16.github.io/post/都会顺利吗">
         </link>
         <updated>2019-07-06T12:36:24.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -297,8 +297,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[一瓣河川]]></title>
-        <id>http://localhost:4000/post/何以谓之侠</id>
-        <link href="http://localhost:4000/post/何以谓之侠">
+        <id>https://luoyin16.github.io/post/何以谓之侠</id>
+        <link href="https://luoyin16.github.io/post/何以谓之侠">
         </link>
         <updated>2019-04-29T08:44:24.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -366,8 +366,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[被遗弃之人的抱团取暖]]></title>
-        <id>http://localhost:4000/post/被遗弃之人的抱团取暖</id>
-        <link href="http://localhost:4000/post/被遗弃之人的抱团取暖">
+        <id>https://luoyin16.github.io/post/被遗弃之人的抱团取暖</id>
+        <link href="https://luoyin16.github.io/post/被遗弃之人的抱团取暖">
         </link>
         <updated>2019-03-27T09:23:54.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -575,8 +575,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[钟表馆事件]]></title>
-        <id>http://localhost:4000/post/钟表馆事件</id>
-        <link href="http://localhost:4000/post/钟表馆事件">
+        <id>https://luoyin16.github.io/post/钟表馆事件</id>
+        <link href="https://luoyin16.github.io/post/钟表馆事件">
         </link>
         <updated>2019-03-05T11:05:19.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -588,7 +588,7 @@
 2019年的第二本, 2019推理企划02号。</p>
 <!-- more -->
 <h2 id="钟表馆事件">《钟表馆事件》</h2>
-<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1574063773731.jpg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574063773731.jpg" alt=""></figure>
 <ul>
 <li>作者: [日] 绫辻行人</li>
 <li>出版社: 新星出版社</li>
@@ -605,7 +605,7 @@
 </br>十年后，以关注超自然现象而闻名的《CHAOS》杂志社，为了采查亡灵的真相，连同W大学超常现象研究会的几名成员，和一位通灵师一起，步入了诡异的钟表馆。然而他们没有想到，为期三天与世隔绝的通灵会，却演变成了疯狂的杀戮时刻。随着时光飞逝，他们一个接一个的倒下，死神的指针最终划破了冷酷的表盘……</p>
 </blockquote>
 </br>
-<figure data-type="image" tabindex="2"><img src="http://localhost:4000/post-images/1574063580734.jpg" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://luoyin16.github.io/post-images/1574063580734.jpg" alt=""></figure>
 </br>
 <h2 id="个人评分-45-5">个人评分: <strong>★ ★ ★ ★ ☆</strong>    4.5 / 5</h2>
 <ol>
@@ -636,8 +636,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[本格难嚼]]></title>
-        <id>http://localhost:4000/post/本格难嚼</id>
-        <link href="http://localhost:4000/post/本格难嚼">
+        <id>https://luoyin16.github.io/post/本格难嚼</id>
+        <link href="https://luoyin16.github.io/post/本格难嚼">
         </link>
         <updated>2019-03-03T02:00:31.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -706,8 +706,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[还是想看一眼太阳的]]></title>
-        <id>http://localhost:4000/post/还是想看一眼太阳的</id>
-        <link href="http://localhost:4000/post/还是想看一眼太阳的">
+        <id>https://luoyin16.github.io/post/还是想看一眼太阳的</id>
+        <link href="https://luoyin16.github.io/post/还是想看一眼太阳的">
         </link>
         <updated>2019-02-20T07:27:37.000Z</updated>
         <content type="html"><![CDATA[<p>浑浑噩噩的日子过得真的很快。<br>
@@ -724,14 +724,14 @@
 <p>“这老太太！罗寅回来了，是罗寅！”外公收拾着床褥。</p>
 <p>心情有些复杂。一方面是帕金森和老年痴呆的围攻下，外婆貌似已经完全失去了自理生活的能力，我无法想象那样的生活是什么样的，如果是我我真的选择死亡。另一方面，被本来熟悉的亲人忘掉，心里确实也不太好受。</p>
 <hr>
-<figure data-type="image" tabindex="1"><img src="http://localhost:4000/post-images/1574063449761.jpg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574063449761.jpg" alt=""></figure>
 <hr>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[人间多的是两条腿的恶人]]></title>
-        <id>http://localhost:4000/post/人间多的是两条腿的恶人</id>
-        <link href="http://localhost:4000/post/人间多的是两条腿的恶人">
+        <id>https://luoyin16.github.io/post/人间多的是两条腿的恶人</id>
+        <link href="https://luoyin16.github.io/post/人间多的是两条腿的恶人">
         </link>
         <updated>2019-01-21T14:24:41.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -835,8 +835,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[嗯哼，是个充实的一天呢]]></title>
-        <id>http://localhost:4000/post/嗯哼，是个充实的一天呢</id>
-        <link href="http://localhost:4000/post/嗯哼，是个充实的一天呢">
+        <id>https://luoyin16.github.io/post/嗯哼，是个充实的一天呢</id>
+        <link href="https://luoyin16.github.io/post/嗯哼，是个充实的一天呢">
         </link>
         <updated>2019-01-20T13:19:52.000Z</updated>
         <summary type="html"><![CDATA[<p>嗯，怎么说呢，算是一段迟来的2018总结吧……</p>
@@ -869,8 +869,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[愚民的胜利]]></title>
-        <id>http://localhost:4000/post/愚民的胜利</id>
-        <link href="http://localhost:4000/post/愚民的胜利">
+        <id>https://luoyin16.github.io/post/愚民的胜利</id>
+        <link href="https://luoyin16.github.io/post/愚民的胜利">
         </link>
         <updated>2017-04-25T09:59:20.000Z</updated>
         <summary type="html"><![CDATA[<p>这篇文章是之前修 诺贝尔经济学选读 这门课的学期中作业，为《动物精神》这本书的读后感。整理电脑的时候翻到觉得有点意思，贴上来权作个存档。<br>
