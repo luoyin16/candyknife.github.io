@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luoyin16.github.io</id>
     <title>Blog via luo</title>
-    <updated>2019-11-21T13:41:42.412Z</updated>
+    <updated>2019-11-21T14:05:11.415Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luoyin16.github.io"/>
     <link rel="self" href="https://luoyin16.github.io/atom.xml"/>
@@ -47,7 +47,7 @@ width = "200" height = "200" align=center /></p>
 <p>因为助教检查的最低要求是4个！【理直气壮】</p>
 <p>人比较懒，确实没什么办法。【叹气】<br>
 想当时小花刚刚坠入情网，兴致冲冲地做了一块20个彩灯的板子，焊成了一个大大的爱心，完成之后对着那blingbling得眼晕的爱心一个劲地痴笑……然后果不其然，当天晚上他就蹲在凳子上，十分甜蜜地用手机录给和他刚在一起不久的女友看，特别关心的消息提醒响了整整一晚……【卑微】</p>
-<p>他内心的喜悦与成就感我懂，他女友能懂吗？！为什么怎么看都像淘宝搜索让女生流泪的礼物系列……</p>
+<p>他内心的喜悦与成就感我懂，他女友能懂吗？！明明怎么看都像淘宝搜索让女生流泪的礼物系列……</p>
 </br>
 <h2 id="哦对来来来正式搞学术">哦对来来来正式搞学术：</h2>
 <h3 id="电路部分敲黑板">电路部分！【敲黑板】</h3>
@@ -67,6 +67,7 @@ width = "200" height = "200" align=center /></p>
 <code>GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</code>④<br>
 <code>GPIO_Init(GPIOB, &amp;GPIO_InitStructure);</code><br>
 <code>}</code></p>
+<p>P.S.下次还是做成图好了……markdown的行内代码排版一塌糊涂【叹气】</p>
 <p>大概意思就是：</p>
 <p>①对于什么都不懂的小灯，我们先要告诉它怎么数数/计时。想象一下对于一个不会数数/计时的孩子，让他隔一秒眨一下眼是不是很令人为难！</p>
 <p>②然后呐，选择具体的四个工具人（引脚）去承担教小灯数数这一使命。</p>
