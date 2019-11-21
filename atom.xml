@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://luoyin16.github.io</id>
     <title>Blog via luo</title>
-    <updated>2019-11-20T11:03:52.554Z</updated>
+    <updated>2019-11-21T13:41:42.412Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://luoyin16.github.io"/>
     <link rel="self" href="https://luoyin16.github.io/atom.xml"/>
@@ -10,6 +10,74 @@
     <logo>https://luoyin16.github.io/images/avatar.png</logo>
     <icon>https://luoyin16.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Blog via luo</rights>
+    <entry>
+        <title type="html"><![CDATA[Dr.Ryougi的科研日记 | 二 RGB！]]></title>
+        <id>https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb</id>
+        <link href="https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb">
+        </link>
+        <updated>2019-11-21T09:28:56.000Z</updated>
+        <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
+<p>大家吼啊！这里还是上次那只刀客塔！</p>
+]]></summary>
+        <content type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
+<p>大家吼啊！这里还是上次那只刀客塔！</p>
+<!-- more -->
+<p>虽然tag打着搞学术，但上次似乎大部分篇幅都在碎碎念【挠头】，不过日记就是balabala的日常啊，念一下有人有意见吗！</p>
+<p><img src="http://image.bee-ji.com/38998" 
+width = "200" height = "200" align=center /></p>
+<p>不过还是应该正经一下咳咳……对做电子系统来说呢，无论基于什么平台，入门第一课都是点跑马灯。</p>
+<p><strong>那么问题来了，什么是跑马灯呢？</strong></p>
+<p>好的，其实我也不知道，但是我可以复制粘贴百度百科！👇</p>
+<blockquote>
+<p>跑马灯又叫走马灯、串马灯。由毛竹编织成马头，马尾，属于灯笼的一种。是传统特色手工艺品，亦是传统节日玩具之一。在过去，跑马灯一般在春节等喜庆的日子里才表演，由二十来位11—14岁小孩组成，边跳边唱，根据节奏快慢形成不同阵势，有喜庆、丁财两旺、五谷丰登的寓意。跑马灯属系在身上糊上颜色鲜艳的纸，如今已由丝绸取代。</p>
+</blockquote>
+<p>emmmmmmmmmmmmmm回头看了一眼儿子，似乎区别很大的亚子……</p>
+<p>不管了，让我们先来康康 <strong>一号机-RGB!</strong></p>
+<p>上动图！👇<br>
+<img src="https://luoyin16.github.io/post-images/1574337821543.gif" alt=""></p>
+<p>你看，<br>
+他可以正着闪【比划x1】，<br>
+反着闪【比划x2】，<br>
+跳着闪【比划x3】，<br>
+还能无法描述地闪【比划x4】！<br>
+算了，还是看动图吧【躺倒】……</p>
+<p>其实呢，另外一个按钮还可以调节闪的频率，但是因为变化实在过于微妙就不太好通过动图展示了……此时此刻码字的我只希望动图的可以如愿在网页上加载出来。【叹气】</p>
+<p>然后我想不瞎的同学可能注意到了，板子上只有4只可怜兮兮的小彩灯，这是为什么呢？</p>
+<img src="http://p0.so.qhimgs1.com/t018219aec8c9e397a4.jpg" align=center />
+<p>因为助教检查的最低要求是4个！【理直气壮】</p>
+<p>人比较懒，确实没什么办法。【叹气】<br>
+想当时小花刚刚坠入情网，兴致冲冲地做了一块20个彩灯的板子，焊成了一个大大的爱心，完成之后对着那blingbling得眼晕的爱心一个劲地痴笑……然后果不其然，当天晚上他就蹲在凳子上，十分甜蜜地用手机录给和他刚在一起不久的女友看，特别关心的消息提醒响了整整一晚……【卑微】</p>
+<p>他内心的喜悦与成就感我懂，他女友能懂吗？！为什么怎么看都像淘宝搜索让女生流泪的礼物系列……</p>
+</br>
+<h2 id="哦对来来来正式搞学术">哦对来来来正式搞学术：</h2>
+<h3 id="电路部分敲黑板">电路部分！【敲黑板】</h3>
+<p>从控制到实现的每个环节都要说的话似乎能讲很久……挑简单的来好了……<br>
+跑马灯的板子非常非常简单，一个LED灯配一个1KΩ的限流电阻就可以了👇</p>
+<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574343160509.png" alt=""></figure>
+<p>为什么要带电阻呢？</p>
+<p>因为发光二极管生性敏感，如果太爱它比如电流超过20mA，就会烧坏掉。于是需要一枚精巧好看的电阻拦在中间，以产生电势上一点点的微妙距离，于是单片机的爱（电流）也不粗暴了，小灯也柔和了许多，是不是两全其美！</p>
+<h3 id="代码部分敲黑板x2">代码部分【敲黑板x2】</h3>
+<p>啊也挑简单的部分来，比如单片机对LED小灯输出引脚的初始化：</p>
+<p><code>void LED_Init(void){</code><br>
+<code>GPIO_InitTypeDef GPIO_InitStructure;</code>	<br>
+<code>RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);</code>①<br>
+<code></code><br>
+<code>GPIO_InitStructure.GPIO_Pin = GPIO_Pin_12|GPIO_Pin_13|GPIO_Pin_14|GPIO_Pin_15;</code>②<br>
+<code>GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;</code>③<br>
+<code>GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;</code>④<br>
+<code>GPIO_Init(GPIOB, &amp;GPIO_InitStructure);</code><br>
+<code>}</code></p>
+<p>大概意思就是：</p>
+<p>①对于什么都不懂的小灯，我们先要告诉它怎么数数/计时。想象一下对于一个不会数数/计时的孩子，让他隔一秒眨一下眼是不是很令人为难！</p>
+<p>②然后呐，选择具体的四个工具人（引脚）去承担教小灯数数这一使命。</p>
+<p>③再然后，去教小灯数数的四个工具人（引脚）还需要给小灯提供能源。这个PP的意思不是屁屁哦，学术称呼叫推挽输出，总之就是单片机可以提供最大输出能力的一种模式。因为一般情况下单片机只提供控制信息，并不供能，但因为LED小灯太弱了，于是单片机就自信了起来……</p>
+<p>④最后，选择教小灯怎么数，这里就是一秒数50M次。悄咪咪说一句，这块单片机自己最多才会一秒数72M次，50M可能是他能教的最好的内容了哈哈哈。</p>
+<p><img src="http://i-4-yxdown.715083.com/2017/4/19/4d6a0aec-fae2-440c-b5b4-de10d2369861.jpg?imageView2/2/q/90"
+width = "250" height = "250" align=center /></p>
+<p>那那那今天就先到这里了！啊本来想把全部过程讲清楚的……可是太多了！<br>
+嘛……反正也只是balabala的日常……【自我安慰】</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dr.Ryougi的科研日记 | 一 初来乍到]]></title>
         <id>https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-yi-chu-lai-zha-dao</id>
@@ -786,111 +854,6 @@
 <hr>
 <figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574063449761.jpg" alt=""></figure>
 <hr>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人间多的是两条腿的恶人]]></title>
-        <id>https://luoyin16.github.io/post/人间多的是两条腿的恶人</id>
-        <link href="https://luoyin16.github.io/post/人间多的是两条腿的恶人">
-        </link>
-        <updated>2019-01-21T14:24:41.000Z</updated>
-        <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
-<p>人间多的是两条腿的恶人，长一条尾巴又算什么？</p>
-<p>本以为上个学期读不了几本书……结果不知不觉也有十来本……因为这次平时并没有注意记下些什么……只能草草列出来了事……具体的感受或者说读书笔记什么的等到相关企划的下几本书再谈吧QAQ</p>
-]]></summary>
-        <content type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
-<p>人间多的是两条腿的恶人，长一条尾巴又算什么？</p>
-<p>本以为上个学期读不了几本书……结果不知不觉也有十来本……因为这次平时并没有注意记下些什么……只能草草列出来了事……具体的感受或者说读书笔记什么的等到相关企划的下几本书再谈吧QAQ</p>
-<!-- more -->
-<h2 id="怪异奇谭">怪异·奇谭</h2>
-<h3 id="01-家守绮谭">01 家守绮谭</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s27348932.jpg" width = "300" height = "400" alt="家守绮谭" align=center />
->作者: 梨木香步
-出版社: 上海文艺出版社
-译者: 田肖霞
-出版年: 2014-3
-豆瓣评分: 8.4
-<h3 id="02-幻色江户历">02 幻色江户历</h3>
-<img src="https://img1.doubanio.com/view/subject/l/public/s4592308.jpg" width = "300" height = "400" alt="幻色江户历" align=center />
->作者:  [日] 宫部美雪
-出版社: 万卷出版社
-译者:  [日] 茂吕美耶
-出版年: 2011-1
-豆瓣评分: 8.0
-<h3 id="03-胚胎奇谭">03 胚胎奇谭</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s28071534.jpg" width = "300" height = "400" alt="胚胎奇谭" align=center />
->作者:  [日] 山白朝子
-出版社: 世纪文景/上海人民出版社
-译者:  匡匡
-出版年: 2015-5
-豆瓣评分: 8.3
-<h3 id="04-虚舟">04 虚舟</h3>
-<img src="https://img1.doubanio.com/view/subject/l/public/s29431448.jpg" width = "300" height = "400" alt="虚舟" align=center />
->作者: [日] 涩泽龙彦
-出版社: 广西师范大学出版社
-译者: 黄洁萍
-出版年: 2017-5
-豆瓣评分: 7.9
-<hr>
-<h2 id="日本近代文学">日本近代文学</h2>
-<h3 id="05-罗生门">05 罗生门</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s28302171.jpg" width = "300" height = "400" alt="罗生门" align=center />
->作者: 芥川龙之介
-出版社: 云南人民出版社
-译者: 赵玉皎
-出版年: 2015-8-7
-豆瓣评分: 9.1
-<h3 id="06-春琴抄">06 春琴抄</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s28692272.jpg" width = "300" height = "400" alt="罗生门" align=center />
->作者:  [日] 谷崎润一郎
-出版社: 南海出版公司
-出品方: 新经典文化
-译者:  郑民钦
-出版年: 2016-6-1
-豆瓣评分: 8.1
-<hr>
-<h2 id="悬疑推理">悬疑·推理</h2>
-<h3 id="07-樱花抽芽时想你">07 樱花抽芽时想你</h3>
-<img src="https://img1.doubanio.com/view/subject/l/public/s29552908.jpg" width = "300" height = "400" alt="樱花抽芽时想你" align=center />
->作者:  [日] 歌野晶午
-出版社: 江苏凤凰文艺出版社
-出品方: 读客
-译者: 赵建勋
-出版年: 2017-10
-豆瓣评分: 7.3
-<h3 id="08-火车上的女孩">08 火车上的女孩</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s28301035.jpg" width = "300" height = "400" alt="火车上的女孩" align=center />
->作者:  [英] 宝拉·霍金斯
-出版社: 中信出版社
-译者: 胡绯
-出版年: 2015-10
-豆瓣评分: 6.6
-<hr>
-<h2 id="新武侠">新武侠</h2>
-<h3 id="09-长安乱">09 长安乱</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s1685774.jpg" width = "300" height = "400" alt="长安乱" align=center />
->作者:  韩寒
-出版社: 二十一世纪出版社
-出版年: 2007-8
-豆瓣评分: 7.6
-<hr>
-<h2 id="其他企划">其他企划</h2>
-<h3 id="10-午夜降临前抵达-旅游文学">10 午夜降临前抵达 |旅游文学</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s28295504.jpg" width = "300" height = "400" alt="午夜降临前抵达" align=center />
->作者:  刘子超
-出版社: 中信出版社
-副标题: A Central European Odyssey
-原作名: 中国国家地理·图书 出品
-出版年: 2015-9
-豆瓣评分: 8.1
-<h3 id="11-这个夏天-图像小说">11 这个夏天 |图像小说</h3>
-<img src="https://img3.doubanio.com/view/subject/l/public/s29508573.jpg" width = "300" height = "400" alt="午夜降临前抵达" align=center />
->作者: [加] 玉城真理子 著 / [加] 玉城吉莉安 绘
-出版社: 人民文学出版社
-出品方: 99读书人
-译者: 安琪
-出版年: 2017-8
-豆瓣评分: 7.4 
 ]]></content>
     </entry>
 </feed>
