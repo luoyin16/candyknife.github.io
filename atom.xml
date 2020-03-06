@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://luoyin16.github.io</id>
-    <title>Blog via luo</title>
-    <updated>2019-11-25T04:05:39.260Z</updated>
+    <id>https://candyknife.github.io</id>
+    <title>甜刀</title>
+    <updated>2020-03-06T15:36:44.513Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://luoyin16.github.io"/>
-    <link rel="self" href="https://luoyin16.github.io/atom.xml"/>
+    <link rel="alternate" href="https://candyknife.github.io"/>
+    <link rel="self" href="https://candyknife.github.io/atom.xml"/>
     <subtitle>茫茫四顾，花死，叶亡。</subtitle>
-    <logo>https://luoyin16.github.io/images/avatar.png</logo>
-    <icon>https://luoyin16.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, Blog via luo</rights>
+    <logo>https://candyknife.github.io/images/avatar.png</logo>
+    <icon>https://candyknife.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 甜刀</rights>
     <entry>
         <title type="html"><![CDATA[Dr.Ryougi的科研日记 | 二 RGB！]]></title>
-        <id>https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb</id>
-        <link href="https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb">
+        <id>https://candyknife.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb</id>
+        <link href="https://candyknife.github.io/post/drryougi-de-ke-yan-ri-ji-or-er-rgb">
         </link>
         <updated>2019-11-21T09:28:56.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -34,7 +34,7 @@ width = "200" height = "200" align=center /></p>
 <p>emmmmmmmmmmmmmm回头看了一眼儿子，似乎区别很大的亚子……</p>
 <p>不管了，让我们先来康康 <strong>一号机-RGB!</strong></p>
 <p>上动图！👇<br>
-<img src="https://luoyin16.github.io/post-images/1574337821543.gif" alt=""></p>
+<img src="https://candyknife.github.io/post-images/1574337821543.gif" alt="" loading="lazy"></p>
 <p>你看，<br>
 他可以正着闪【比划x1】，<br>
 反着闪【比划x2】，<br>
@@ -53,7 +53,7 @@ width = "200" height = "200" align=center /></p>
 <h3 id="电路部分敲黑板">电路部分！【敲黑板】</h3>
 <p>从控制到实现的每个环节都要说的话似乎能讲很久……挑简单的来好了……<br>
 跑马灯的板子非常非常简单，一个LED灯配一个1KΩ的限流电阻就可以了👇</p>
-<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574343160509.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://candyknife.github.io/post-images/1574343160509.png" alt="" loading="lazy"></figure>
 <p>为什么要带电阻呢？</p>
 <p>因为发光二极管生性敏感，如果太爱它比如电流超过20mA，就会烧坏掉。于是需要一枚精巧好看的电阻拦在中间，以产生电势上一点点的微妙距离，于是单片机的爱（电流）也不粗暴了，小灯也柔和了许多，是不是两全其美！</p>
 <h3 id="代码部分敲黑板x2">代码部分【敲黑板x2】</h3>
@@ -81,8 +81,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dr.Ryougi的科研日记 | 一 初来乍到]]></title>
-        <id>https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-yi-chu-lai-zha-dao</id>
-        <link href="https://luoyin16.github.io/post/drryougi-de-ke-yan-ri-ji-or-yi-chu-lai-zha-dao">
+        <id>https://candyknife.github.io/post/drryougi-de-ke-yan-ri-ji-or-yi-chu-lai-zha-dao</id>
+        <link href="https://candyknife.github.io/post/drryougi-de-ke-yan-ri-ji-or-yi-chu-lai-zha-dao">
         </link>
         <updated>2019-11-20T08:12:52.000Z</updated>
         <summary type="html"><![CDATA[<p>大家吼啊！这里是一只初来乍到、心情忐忑、面对科研之路畏首畏尾一无所知、却盲目保持乐观的刀客塔！</p>
@@ -94,13 +94,13 @@ width = "250" height = "250" align=center /></p>
 <p>开这个坑主要为了记录和介绍自己的儿子们。【骄傲】不要问我为什么不是女儿，虽然都是认认真真亲手做的东西，但那个模样叫女儿着实不太忍心。【叹气*2】然后也算是对科普的又一次尝试吧……【捂脸】抬头看一眼书架上吴军大大照耀了我高中三年的书，懂技术讲话还有趣好懂的人也太让人羡慕了。</p>
 <p>好了好了，正式开始正题。</p>
 <p>一切的开始，就是他👇：零号机-零号机。</p>
-<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574246217077.png" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://candyknife.github.io/post-images/1574246217077.png" alt="" loading="lazy"></figure>
 <p>对，不是复读机，按序号这是零号机，然后因为想不太出什么好名字，于是索性让他就叫零号机。</p>
 <p>零号机是个啥呢？简单说就是台电脑，只不过体积小一点，性能菜一点，正常电脑上该有的东西它都有，好的，介绍完毕。【不来点掌声吗】</p>
 <p>其实这一篇题目叫焊工基础入门更好一点。让我们回到他诞生的时候：2018年3月1号。它诞生前，长这个样子👇：</p>
-<figure data-type="image" tabindex="2"><img src="https://luoyin16.github.io/post-images/1574246253520.png" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://candyknife.github.io/post-images/1574246253520.png" alt="" loading="lazy"></figure>
 <p>比较理想的情况下完成后应该长这样👇：应该是个焊点均匀扎实、表面干净、器件整齐平整的模样</p>
-<figure data-type="image" tabindex="3"><img src="https://luoyin16.github.io/post-images/1574246266309.png" alt=""></figure>
+<figure data-type="image" tabindex="3"><img src="https://candyknife.github.io/post-images/1574246266309.png" alt="" loading="lazy"></figure>
 <p>至于为什么成了最上面那个脏兮兮、歪瓜裂枣、丑不拉几的样子，嘛，对于初学者要有一点点的包容，怎么说也是他的父亲，毕竟一只手握三百多度电烙铁，另一只手颤抖着用镊子捏着那些随便呼口气就能飞跑找不到的微小元件，辛辛劳劳了近四个小时。好在虽然难看是难看，各个模块功能都还正常，和那些动辄或虚焊或短路或焊错元件的同僚们比起来，已经幸运太多。【叹气*3】反正我不嫌弃，他若是嫌弃，他自己再努力努力好了。</p>
 <p>那个下午的头是发热的，<br>
 眼是发花的，<br>
@@ -116,8 +116,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[立秋失败]]></title>
-        <id>https://luoyin16.github.io/post/立秋失败</id>
-        <link href="https://luoyin16.github.io/post/立秋失败">
+        <id>https://candyknife.github.io/post/立秋失败</id>
+        <link href="https://candyknife.github.io/post/立秋失败">
         </link>
         <updated>2019-10-04T12:41:01.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -269,8 +269,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[都会顺利吗]]></title>
-        <id>https://luoyin16.github.io/post/都会顺利吗</id>
-        <link href="https://luoyin16.github.io/post/都会顺利吗">
+        <id>https://candyknife.github.io/post/都会顺利吗</id>
+        <link href="https://candyknife.github.io/post/都会顺利吗">
         </link>
         <updated>2019-07-06T12:36:24.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -401,8 +401,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[一瓣河川]]></title>
-        <id>https://luoyin16.github.io/post/何以谓之侠</id>
-        <link href="https://luoyin16.github.io/post/何以谓之侠">
+        <id>https://candyknife.github.io/post/何以谓之侠</id>
+        <link href="https://candyknife.github.io/post/何以谓之侠">
         </link>
         <updated>2019-04-29T08:44:24.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -470,8 +470,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[被遗弃之人的抱团取暖]]></title>
-        <id>https://luoyin16.github.io/post/被遗弃之人的抱团取暖</id>
-        <link href="https://luoyin16.github.io/post/被遗弃之人的抱团取暖">
+        <id>https://candyknife.github.io/post/被遗弃之人的抱团取暖</id>
+        <link href="https://candyknife.github.io/post/被遗弃之人的抱团取暖">
         </link>
         <updated>2019-03-27T09:23:54.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -679,8 +679,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[钟表馆事件]]></title>
-        <id>https://luoyin16.github.io/post/钟表馆事件</id>
-        <link href="https://luoyin16.github.io/post/钟表馆事件">
+        <id>https://candyknife.github.io/post/钟表馆事件</id>
+        <link href="https://candyknife.github.io/post/钟表馆事件">
         </link>
         <updated>2019-03-05T11:05:19.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -692,7 +692,7 @@ width = "250" height = "250" align=center /></p>
 2019年的第二本, 2019推理企划02号。</p>
 <!-- more -->
 <h2 id="钟表馆事件">《钟表馆事件》</h2>
-<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574063773731.jpg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://candyknife.github.io/post-images/1574063773731.jpg" alt="" loading="lazy"></figure>
 <ul>
 <li>作者: [日] 绫辻行人</li>
 <li>出版社: 新星出版社</li>
@@ -709,7 +709,7 @@ width = "250" height = "250" align=center /></p>
 </br>十年后，以关注超自然现象而闻名的《CHAOS》杂志社，为了采查亡灵的真相，连同W大学超常现象研究会的几名成员，和一位通灵师一起，步入了诡异的钟表馆。然而他们没有想到，为期三天与世隔绝的通灵会，却演变成了疯狂的杀戮时刻。随着时光飞逝，他们一个接一个的倒下，死神的指针最终划破了冷酷的表盘……</p>
 </blockquote>
 </br>
-<figure data-type="image" tabindex="2"><img src="https://luoyin16.github.io/post-images/1574063580734.jpg" alt=""></figure>
+<figure data-type="image" tabindex="2"><img src="https://candyknife.github.io/post-images/1574063580734.jpg" alt="" loading="lazy"></figure>
 </br>
 <h2 id="个人评分-45-5">个人评分: <strong>★ ★ ★ ★ ☆</strong>    4.5 / 5</h2>
 <ol>
@@ -740,8 +740,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[本格难嚼]]></title>
-        <id>https://luoyin16.github.io/post/本格难嚼</id>
-        <link href="https://luoyin16.github.io/post/本格难嚼">
+        <id>https://candyknife.github.io/post/本格难嚼</id>
+        <link href="https://candyknife.github.io/post/本格难嚼">
         </link>
         <updated>2019-03-03T02:00:31.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
@@ -810,8 +810,8 @@ width = "250" height = "250" align=center /></p>
     </entry>
     <entry>
         <title type="html"><![CDATA[还是想看一眼太阳的]]></title>
-        <id>https://luoyin16.github.io/post/还是想看一眼太阳的</id>
-        <link href="https://luoyin16.github.io/post/还是想看一眼太阳的">
+        <id>https://candyknife.github.io/post/还是想看一眼太阳的</id>
+        <link href="https://candyknife.github.io/post/还是想看一眼太阳的">
         </link>
         <updated>2019-02-20T07:27:37.000Z</updated>
         <summary type="html"><![CDATA[<p>浑浑噩噩的日子过得真的很快。<br>
@@ -833,14 +833,14 @@ width = "250" height = "250" align=center /></p>
 <p>“这老太太！罗寅回来了，是罗寅！”外公收拾着床褥。</p>
 <p>心情有些复杂。一方面是帕金森和老年痴呆的围攻下，外婆貌似已经完全失去了自理生活的能力，我无法想象那样的生活是什么样的，如果是我我真的选择死亡。另一方面，被本来熟悉的亲人忘掉，心里确实也不太好受。</p>
 <hr>
-<figure data-type="image" tabindex="1"><img src="https://luoyin16.github.io/post-images/1574063449761.jpg" alt=""></figure>
+<figure data-type="image" tabindex="1"><img src="https://candyknife.github.io/post-images/1574063449761.jpg" alt="" loading="lazy"></figure>
 <hr>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[人间多的是两条腿的恶人]]></title>
-        <id>https://luoyin16.github.io/post/人间多的是两条腿的恶人</id>
-        <link href="https://luoyin16.github.io/post/人间多的是两条腿的恶人">
+        <id>https://candyknife.github.io/post/人间多的是两条腿的恶人</id>
+        <link href="https://candyknife.github.io/post/人间多的是两条腿的恶人">
         </link>
         <updated>2019-01-21T14:24:41.000Z</updated>
         <summary type="html"><![CDATA[<meta name="referrer" content="no-referrer" />
