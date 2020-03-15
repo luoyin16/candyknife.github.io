@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://candyknife.github.io</id>
     <title>甜刀</title>
-    <updated>2020-03-14T11:54:52.161Z</updated>
+    <updated>2020-03-15T11:43:00.508Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://candyknife.github.io"/>
     <link rel="self" href="https://candyknife.github.io/atom.xml"/>
@@ -11,9 +11,26 @@
     <icon>https://candyknife.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 甜刀</rights>
     <entry>
+        <title type="html"><![CDATA[肯德基6元早餐]]></title>
+        <id>https://candyknife.github.io/post/ken-de-ji-6-yuan-zao-can/</id>
+        <link href="https://candyknife.github.io/post/ken-de-ji-6-yuan-zao-can/">
+        </link>
+        <updated>2020-03-15T10:52:00.000Z</updated>
+        <content type="html"><![CDATA[<p>跑步，聊天，随意地刷着手机站在KFC门口等待着取早餐，牛肉香菇粥和一根油条。门口的喇叭一遍又一遍地重复着疫情期间独有的广播，隔壁很随意地穿着防护服手持测温枪的超市“守门人”兢兢业业。忽地风起，小桌上的传单散落一地，我无动于衷，“守门人”过来弯腰一一拾起，一时有些羞愧。</p>
+<hr>
+<p>太久没有跑步，以至于在体育场的广场前才绕两圈，鞋底就开始时不时摩擦一下地面——腿抬不动了。说不出话，太阳不算烈，如果只是坐在一处有太阳的屋檐下，一定还是很能让人开心的。但跑步的话就完全无暇去感受这些，入耳式无线耳机的硅胶套撑得耳朵难受，因为类听诊器效应，还要忍受每次脚掌落地时的一声沉闷撞击。旁边肖大宝仗着身高腿长的优势慢悠悠晃着肩迈着腿，虽然看着也喘得厉害，但仍旧涛涛不绝地讲着那个极其复古的种田游戏《The Unreal World》。他真的很喜欢这一类游戏啊，从《Minecraft》到《乞丐模拟器》，对从零开始在世界上生活下去充满热情，挺好。</p>
+<p>刚跑完就收到了傻fufu的早安，六个字一张表情包。我简直无可救药。不久前一起开黑时睿哥说，女朋友只是比正常朋友要更好一点点的朋友而已，我没有想那么多，如果她遇到了比我更好的男生并选择了对方，我会欣然同意。听到时有些错愕，我觉得另一半之所以称为另一半，就是和自己一样一等一重要的人，我恨不能把自己全部的好都塞给她，也恨不得所有的快乐都和她有关。可能我的想法更不正常一点吧。</p>
+<hr>
+<p>约好了要去小毒舌家拯救他脾气很差的电脑。其实昨晚被一直戳得很烦，我知道他是很急，可本要睡觉却要被一再戳醒回复靠打字根本解决不了的问题也很让人头大。越来越发现就是会有那样的事情，不怪我，也不怪他们，但就是很不愉快。这与对方是谁无关，都一样，谁来都会存在，交谈得多的人之间就多，交谈得少的人之间就少。所以不开心还要正经说出来是我的问题。嗯。</p>
+<p>知道小毒舌家没人之后很不见外地就直接在客厅餐桌上吃掉了早餐，肯德基6元早餐真的很棒。修完电脑被小毒舌很贴心地留下来请了顿KFC，能帮到周围的人，随便地吃龙虾煲喝可乐聊聊天，特别快乐。我是被别人需要着的。</p>
+<hr>
+<p>Windows 10 的 BUG 让我动了换主力系统的念头，想着计算机考研的四门专业课我似乎有一门半没有上过，索性就在家补齐叭。看掉了《操作系统》前三章，感觉只是很笼统地了解了一些概念和计算机启动的流程，明天继续叭。</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[不声不响地再次开始]]></title>
-        <id>https://candyknife.github.io/post/bu-sheng-bu-xiang-di-zai-ci-kai-shi</id>
-        <link href="https://candyknife.github.io/post/bu-sheng-bu-xiang-di-zai-ci-kai-shi">
+        <id>https://candyknife.github.io/post/bu-sheng-bu-xiang-di-zai-ci-kai-shi/</id>
+        <link href="https://candyknife.github.io/post/bu-sheng-bu-xiang-di-zai-ci-kai-shi/">
         </link>
         <updated>2020-03-14T10:36:11.000Z</updated>
         <content type="html"><![CDATA[<p>已经不是第一次觉得自己现在很奇怪。</p>
