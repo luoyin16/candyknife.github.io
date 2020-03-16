@@ -1,0 +1,268 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>操作系统原理 |  第一章 操作系统概述 | 甜刀</title>
+<meta name="description" content="茫茫四顾，花死，叶亡。" />
+<link rel="shortcut icon" href="https://candyknife.github.io/favicon.ico?v=1584349760817">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://candyknife.github.io/styles/main.css">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://candyknife.github.io">
+  <img class="avatar" src="https://candyknife.github.io/images/avatar.png?v=1584349760817" alt="">
+  </a>
+  <h1 class="site-title">
+    甜刀
+  </h1>
+  <p class="site-description">
+    茫茫四顾，花死，叶亡。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              操作系统原理 |  第一章 操作系统概述
+            </h2>
+            <div class="post-info">
+              <span>
+                2020-03-16
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://candyknife.github.io/tag/bLYLUg2MH/" class="post-tag">
+                  # 搞学术
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="一-操作系统的定义">一. 操作系统的定义</h2>
+<p>操作系统是一个大型系统程序：提供用户<strong>接口</strong>，方便用户控制计算机；负责为应用程序<strong>分配和调度软硬件资源</strong>，并控制与协调应用程序并发活动，帮助用户存取和保护信息。</p>
+<h2 id="二-操作系统的四大核心功能">二. 操作系统的四大核心功能</h2>
+<ol>
+<li>进程管理：进程控制、进程调度、进程通信。</li>
+<li>内存管理：内存分配、内存共享、内存保护、虚拟内存管理。</li>
+<li>设备管理：设备分配与调度、设备无关性、设备传输控制、设备驱动。</li>
+<li>文件管理：存储空间管理、文件的操作、目录的操作、文件和目录的存取权限管理。</li>
+</ol>
+<p>操作系统的核心判据：是否能管理进程和内存？</p>
+<h2 id="三-操作系统的四个典型发展阶段">三. 操作系统的四个典型发展阶段</h2>
+<ol>
+<li>
+<p>手工操作（无操作系统）- 50年代早期</p>
+<ol>
+<li>程序准备/启动/结束都需要手工处理，繁琐耗时</li>
+<li>特点：
+<ul>
+<li>效率低：CPU有效运行时间低</li>
+<li>用户独占</li>
+<li>缺少交互</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>单道批处理系统 - 50年代</p>
+<ol>
+<li>描述：管理员事先将多个作业输入到磁盘形成作业队列。程序的装入和撤出自动完成，效率相对无操作系统高。</li>
+<li>特点：
+<ul>
+<li><strong>批量</strong>：作业队列</li>
+<li>自动：自动识别作业，装入和撤出</li>
+<li><strong>单道</strong>：依次处理，串行</li>
+</ul>
+</li>
+<li>总结：外设和CPU交替空闲和忙碌，利用效率还是低</li>
+</ol>
+</li>
+<li>
+<p>多道批处理系统 - 60年代初</p>
+<ol>
+<li>定义：在内存中放入多道程序，当某道程序因为某种原因（例如执行I/O操作）不能继续运行而使CPU空闲时，操作系统便调度另一程序运行使用CPU。很大地提高了系统CPU利用率以及系统吞吐量。</li>
+<li>特点：
+<ul>
+<li>多道：内存同时存放多道程序</li>
+<li>并行：宏观上</li>
+<li>串行：微观上</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>作业处理时间长</li>
+<li>交互能力差</li>
+<li>运行过程不确定</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>分时系统 - 60年代中</p>
+<ol>
+<li>
+<p>分时技术：主机以很短的“时间片”为单位，把CPU轮流分配给每个终端使用直到全部作业被运行完。因为“时间片”很短，在终端数不多的情况下，每个终端都能很快重新获得CPU，得到及时响应。</p>
+<blockquote>
+<p>等待周期 = 时间片 × 终端数量</p>
+</blockquote>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>多路调制性：多用户联机使用同一台计算机</li>
+<li>独占性：用户感觉独占计算机</li>
+<li>交互性：及时响应用户的请求</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="四-典型的操作系统类型">四. 典型的操作系统类型</h2>
+<ol>
+<li>微机操作系统：MacOS/Windows…
+<ul>
+<li>1973年CP/M操作系统：良好的层次结构（BIOS把操作系统和硬件分割）；易学易用。</li>
+<li>80年代微软的MS DOS：磁盘操作系统；单用户单任务；MS DOS预装在IBM PC上。</li>
+</ul>
+</li>
+<li>多处理机系统</li>
+<li>网络操作系统：普通操作系统+网络通信+网络服务 Unix\Linux\Windows</li>
+<li>实时操作系统：强调作业完成的时限</li>
+<li>硬实时系统（时限要求严格）、软实时系统（时限要求不严格，但是尽量快）</li>
+<li>嵌入式操作系统 ≈ 实时系统，软硬件一体化：Andriod、Linux(嵌入式的Linux)</li>
+</ol>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E4%B8%80-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%9A%E4%B9%89">一. 操作系统的定义</a></li>
+<li><a href="#%E4%BA%8C-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9B%9B%E5%A4%A7%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD">二. 操作系统的四大核心功能</a></li>
+<li><a href="#%E4%B8%89-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9B%9B%E4%B8%AA%E5%85%B8%E5%9E%8B%E5%8F%91%E5%B1%95%E9%98%B6%E6%AE%B5">三. 操作系统的四个典型发展阶段</a></li>
+<li><a href="#%E5%9B%9B-%E5%85%B8%E5%9E%8B%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%B1%BB%E5%9E%8B">四. 典型的操作系统类型</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://candyknife.github.io/post/ken-de-ji-6-yuan-zao-can/">
+              <h3 class="post-title">
+                肯德基6元早餐
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://candyknife.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>

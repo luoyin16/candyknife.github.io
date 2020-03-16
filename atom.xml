@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://candyknife.github.io</id>
     <title>甜刀</title>
-    <updated>2020-03-15T11:43:22.168Z</updated>
+    <updated>2020-03-16T09:09:24.635Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://candyknife.github.io"/>
     <link rel="self" href="https://candyknife.github.io/atom.xml"/>
@@ -10,6 +10,107 @@
     <logo>https://candyknife.github.io/images/avatar.png</logo>
     <icon>https://candyknife.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 甜刀</rights>
+    <entry>
+        <title type="html"><![CDATA[操作系统原理 |  第一章 操作系统概述]]></title>
+        <id>https://candyknife.github.io/post/cao-zuo-xi-tong-yuan-li-or-di-yi-zhang-cao-zuo-xi-tong-gai-shu/</id>
+        <link href="https://candyknife.github.io/post/cao-zuo-xi-tong-yuan-li-or-di-yi-zhang-cao-zuo-xi-tong-gai-shu/">
+        </link>
+        <updated>2020-03-16T09:05:54.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="一-操作系统的定义">一. 操作系统的定义</h2>
+<p>操作系统是一个大型系统程序：提供用户<strong>接口</strong>，方便用户控制计算机；负责为应用程序<strong>分配和调度软硬件资源</strong>，并控制与协调应用程序并发活动，帮助用户存取和保护信息。</p>
+<h2 id="二-操作系统的四大核心功能">二. 操作系统的四大核心功能</h2>
+<ol>
+<li>进程管理：进程控制、进程调度、进程通信。</li>
+<li>内存管理：内存分配、内存共享、内存保护、虚拟内存管理。</li>
+<li>设备管理：设备分配与调度、设备无关性、设备传输控制、设备驱动。</li>
+<li>文件管理：存储空间管理、文件的操作、目录的操作、文件和目录的存取权限管理。</li>
+</ol>
+<p>操作系统的核心判据：是否能管理进程和内存？</p>
+<h2 id="三-操作系统的四个典型发展阶段">三. 操作系统的四个典型发展阶段</h2>
+<ol>
+<li>
+<p>手工操作（无操作系统）- 50年代早期</p>
+<ol>
+<li>程序准备/启动/结束都需要手工处理，繁琐耗时</li>
+<li>特点：
+<ul>
+<li>效率低：CPU有效运行时间低</li>
+<li>用户独占</li>
+<li>缺少交互</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>单道批处理系统 - 50年代</p>
+<ol>
+<li>描述：管理员事先将多个作业输入到磁盘形成作业队列。程序的装入和撤出自动完成，效率相对无操作系统高。</li>
+<li>特点：
+<ul>
+<li><strong>批量</strong>：作业队列</li>
+<li>自动：自动识别作业，装入和撤出</li>
+<li><strong>单道</strong>：依次处理，串行</li>
+</ul>
+</li>
+<li>总结：外设和CPU交替空闲和忙碌，利用效率还是低</li>
+</ol>
+</li>
+<li>
+<p>多道批处理系统 - 60年代初</p>
+<ol>
+<li>定义：在内存中放入多道程序，当某道程序因为某种原因（例如执行I/O操作）不能继续运行而使CPU空闲时，操作系统便调度另一程序运行使用CPU。很大地提高了系统CPU利用率以及系统吞吐量。</li>
+<li>特点：
+<ul>
+<li>多道：内存同时存放多道程序</li>
+<li>并行：宏观上</li>
+<li>串行：微观上</li>
+</ul>
+</li>
+<li>缺点：
+<ul>
+<li>作业处理时间长</li>
+<li>交互能力差</li>
+<li>运行过程不确定</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+<p>分时系统 - 60年代中</p>
+<ol>
+<li>
+<p>分时技术：主机以很短的“时间片”为单位，把CPU轮流分配给每个终端使用直到全部作业被运行完。因为“时间片”很短，在终端数不多的情况下，每个终端都能很快重新获得CPU，得到及时响应。</p>
+<blockquote>
+<p>等待周期 = 时间片 × 终端数量</p>
+</blockquote>
+</li>
+<li>
+<p>特点：</p>
+<ul>
+<li>多路调制性：多用户联机使用同一台计算机</li>
+<li>独占性：用户感觉独占计算机</li>
+<li>交互性：及时响应用户的请求</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h2 id="四-典型的操作系统类型">四. 典型的操作系统类型</h2>
+<ol>
+<li>微机操作系统：MacOS/Windows…
+<ul>
+<li>1973年CP/M操作系统：良好的层次结构（BIOS把操作系统和硬件分割）；易学易用。</li>
+<li>80年代微软的MS DOS：磁盘操作系统；单用户单任务；MS DOS预装在IBM PC上。</li>
+</ul>
+</li>
+<li>多处理机系统</li>
+<li>网络操作系统：普通操作系统+网络通信+网络服务 Unix\Linux\Windows</li>
+<li>实时操作系统：强调作业完成的时限</li>
+<li>硬实时系统（时限要求严格）、软实时系统（时限要求不严格，但是尽量快）</li>
+<li>嵌入式操作系统 ≈ 实时系统，软硬件一体化：Andriod、Linux(嵌入式的Linux)</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[肯德基6元早餐]]></title>
         <id>https://candyknife.github.io/post/ken-de-ji-6-yuan-zao-can/</id>
